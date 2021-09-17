@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+    Ronald Ray Veal, The Building Blocks for you Space Base-functions, 09-17-2021
+-->
+<head>
+    <!--script src links function id to html-->
+    <script src= "function play.js"></script>
+    <title>rolling riches</title>
+</head>
+<!--paragraph displays print message on screen-->
+<p align= "center">
+    <!-- b is to make the message from p bold-->
+    <b>
+    CRAPS
+    <br></br>
+    THE GAME OF WRIST MASTERY
+</b></p>
+<body>
+    <!--button calls in a function from javascript-->
+    <button onclick= "playCraps();"> Play craps</button>
+    <h1 align= "center"> Die 1 result</h1>
+    <p align= "center" id= "die1Dis"> Die 1 result</p>
+    <h2 align= "center"> Die 2 result</h2>
+    <p align= "center"id= "die2Dis"> Die 2 result</p>
+    <h3 align= "center"> Sum result</h3>
+    <p align= "center"id= "sumDis"> Sum result</p>
+    <h4 align= "center"> Win, Lose, or Draw</h4>
+    <p align= "center" id="resultDis"> Result here </p>
+
+
+</body>
+</html>
